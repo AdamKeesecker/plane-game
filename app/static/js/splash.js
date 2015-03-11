@@ -15,7 +15,7 @@ Game.Splash.prototype = {
     this.map.addTilesetImage('logoStuff');
 
 
-    this.logo = this.map.createLayer('Logo');
+    this.logo = this.map.createLayer('logo');
     this.logo.scale.setTo(2, 2);
   },
 
